@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="台科大網頁製作課程Super Senior組">
+    <meta name="KeyWords" content="NTUST safood 台科 餐廳 食安">
+
+    <title>NTUST Safood</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/safood.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">NTUST Safood</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">關於</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#list">觀看討論</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#post">我要檢舉</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">團隊</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">聯絡我們</a>
+                    </li>
+                    <li>
+                        <a class="signin" href="#modal">註冊/登入</a>
+                        <!-- 跳出modal登入 -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">NTUST Safood 台科食安王</div>
+                <div class="intro-heading">受夠學餐『蟲蟲危機』了嗎？我要店家給回應！！！<br><u>～～來這裡檢舉，我們給你個交代～～</u></div>
+                <!-- 下雙箭頭btn -->
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!--About Section-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row text-center"> 
+                <div class="col-md-2"></div>   
+                <div class="col-md-8">
+                    <h3 class="name-intro text-muted">Safood = Safe + Food !</h3>
+                    <h4>學生與餐廳業者零距離溝通，互相給予回應與改善讓我們的食物一切「Safe！」</h4>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3 class="text-muted"><img src="icons/1429191504_Food-Dome-128.png" alt=""><br><br>如果你是<span style="color:red">『學生/消費者』</span>...</h3>
+                    <h4>在這裡檢舉，不會只有像頭殼板一起跟朋友抱怨。店家會給你回應，甚至補償！</h4>
+                    <br>
+                    <!-- 檢舉按鈕 -->
+                    <a href="#post" class="page-scroll btn btn-xl">遇到蟲蟲危機？立馬檢舉！</a>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3 class="text-muted"><img src="icons/1429191621_Analytics-128.png" alt=""><br><br>學校</h3>
+                    <h4>提供校方評分、汰換廠商一個參考指標。</h4>
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="text-muted"><img src="icons/imgres.png" alt="" height="128" width="128"><br><br>如果你是<span style="color:green">『學餐業者』</span>...</h3>
+                    <h4>你發現買的人變少了？來這裡看看大家的評論、建議，讓它再次成為熱賣商品！</h4>
+                    <br>
+                    <!-- 觀看評論按鈕 -->
+                    <a href="#list" class="page-scroll btn btn-xl">我被說了什麼？</a>
+                    <!-- 如果店家有登入，按下此按鈕可以直接選好他的店家列表 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- List Grid Section -->
+    <section id="list" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">食安檢舉討論區</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <!-- search和selector -->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="搜尋店家名稱">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div>   
+                <div class="col-md-4">
+                    <form action="">
+                        <select class="form-control store-select">
+                          <option>或選擇店家</option>
+                          <option>[一餐]金盃</option>
+                          <option>[一餐]丼太郎</option>
+                          <option>[三餐]雞同鴨講</option>
+                          <option>[三餐]七辣滷味</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 portfolio-item">
+                    <div class="list-group">
+                        <!-- list1 -->
+                        <a href="#portfolioModal1" class="list-group-item portfolio-link" data-toggle="modal">
+
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <!-- +號圖案 -->
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <div class="list-item-content">
+                                <div class="listLogo">
+                                    <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/11084289_804096766334264_8161751502452360480_n.jpg?oh=cd8e4e624726fb272356dd7c365891a1&oe=55A8A766&__gda__=1436513495_60df1d0e82546745df1d84e3494de5c4" alt="">
+                                </div>
+                                <div class="listContent">    
+                                    <div class="listText">蟲蟲危機...</div>
+
+                                    <div class="info">
+                                        <span class="user">鄧國欽</span>
+                                        <span class="dateTime">2015/4/16 12:00</span> 
+                                        <span class="restaurant label label-info">三餐</span>
+                                        <span class="store label label-warning">帝一味自助餐</span>
+                                        <span class="meal label label-success">湯</span>
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <h3><span class="solve label label-default">已解決</span></h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- list2 -->
+                        <a href="#portfolioModal2" class="list-group-item portfolio-link" data-toggle="modal">
+
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <!-- +號圖案 -->
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <div class="list-item-content">
+                                <div class="listLogo">
+                                    <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/22493_951374258219517_7464696858861643844_n.jpg?oh=3ed3af0877c2dec21c98b888fc82708d&oe=5598BD7C&__gda__=1441030295_fa913da31f10e6221d4b0a1bd971d320" alt="">
+                                </div>
+                                <div class="listContent">
+                                    <div class="listText">3餐七辣有蟑螂</div>
+                                    <div class="info">
+                                        <span class="user">鄧國欽</span>
+                                        <span class="dateTime">2015/4/16 12:00</span> 
+                                        <span class="label label-info">三餐</span>
+                                        <span class="label label-warning">七辣滷味</span>
+                                        <span class="label label-success">滷味</span>
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <h3><span class="solve label label-danger">未解決</span></h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- list3 -->
+                        <a href="#portfolioModal3" class="list-group-item portfolio-link" data-toggle="modal">
+
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <!-- +號圖案 -->
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <div class="list-item-content">
+                                <div class="listLogo">
+                                    <img src="http://placehold.it/60x50" alt="">
+                                </div>
+                                <div class="listContent">
+                                    <div class="listText">Subject</div>
+                                    <div class="info">
+                                        <span class="user">檢舉人姓名</span>
+                                        <span class="dateTime">檢舉時間</span> 
+                                        <span class="label label-info">餐聽</span>
+                                        <span class="label label-warning">店家</span>
+                                        <span class="label label-success">餐點名稱</span>
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <h3><span class="solve label label-default">店家是否解決</span></h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- list4 -->
+                        <a href="#portfolioModal4" class="list-group-item portfolio-link" data-toggle="modal">
+
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <!-- +號圖案 -->
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <div class="list-item-content">
+                                <div class="listLogo">
+                                    <img src="http://placehold.it/60x50" alt="">
+                                </div>
+                                <div class="listContent">
+                                    <div class="listText">Subject</div>
+                                    <div class="info">
+                                        <span class="user">檢舉人姓名</span>
+                                        <span class="dateTime">檢舉時間</span> 
+                                        <span class="label label-info">餐聽</span>
+                                        <span class="label label-warning">店家</span>
+                                        <span class="label label-success">餐點名稱</span>
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <h3><span class="solve label label-default">店家是否解決</span></h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- list5 -->
+                        <a href="#portfolioModal5" class="list-group-item portfolio-link" data-toggle="modal">
+
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <!-- +號圖案 -->
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <div class="list-item-content">
+                                <div class="listLogo">
+                                    <img src="http://placehold.it/60x50" alt="">
+                                </div>
+                                <div class="listContent">
+                                    <div class="listText">Subject</div>
+                                    <div class="info">
+                                        <span class="user">檢舉人姓名</span>
+                                        <span class="dateTime">檢舉時間</span> 
+                                        <span class="label label-info">餐聽</span>
+                                        <span class="label label-warning">店家</span>
+                                        <span class="label label-success">餐點名稱</span>
+                                    </div>
+                                </div>
+
+                                <div class="pull-right">
+                                    <h3><span class="solve label label-default">店家是否解決</span></h3>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-2"></div>
+
+            </div>
+
+            <!-- Controls -->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <nav>
+                      <ul class="pager">
+                        <li class="previous"><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+
+                        <li class="text-center"><a class="list-page" href="#">1</a></li>
+
+                        <li class="next"><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                      </ul>
+                    </nav>                
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post Grid Section -->
+    <!-- 有登入才可以檢舉 -->
+    <section id="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">檢舉</h2>
+                    <hr>
+                </div>
+
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-group">
+                          <input type="" class="form-control" id="" placeholder="Subject（要先登入才可以檢舉喔！）" >
+                        </div>
+                        
+                        <select class="form-control restaurant-select">
+                          <option>請選擇餐廳</option>
+                          <option>一餐</option>
+                          <option>三餐</option>
+                          <option>教職員餐廳</option>
+                        </select>
+                        <!-- 選擇完餐廳可以自動篩選出該餐廳的店家，放在下面的store-select中 -->
+
+                        <select class="form-control store-select">
+                          <option>請選擇店家</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+
+                        <div class="form-group">
+                          <input type="" class="form-control" id="" placeholder="餐點名稱" >
+                        </div>
+
+                        <div class="form-group">
+                          <textarea class="form-control" rows="5" placeholder="檢舉問題描述"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleInputFile"><h4>上傳照片</h4></label>
+                          <input type="file" id="exampleInputFile">
+                          <p class="help-block">Example block-level help text here.</p>
+                        </div>
+
+                        <div class="text-center">
+                          <button type="button" class="btn btn-xl">Post</button>
+                        </div>
+                      
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    
+     
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Team</h2>
+                    <hr>
+                    <h3 class="section-subheading text-muted">Super Senior</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtp1/v/t1.0-1/p160x160/11138583_1059142674100481_3163487531520680588_n.jpg?oh=79808ead670e6ecd284ed73ff57109d7&oe=55996456&__gda__=1440845492_612c184fe00ed91a2f20ad6324a163d3" class="img-responsive img-circle" alt="">
+                        <a href="https://www.facebook.com/EdenTsengTW?fref=ts"><h3>Eden Tseng</h3></a>
+                        <p class="text-muted">Designer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c0.5.160.160/p160x160/10462356_723567481065254_2859087687670518794_n.jpg?oh=0d5bd0dd67f08911a786712a96028400&oe=55A04424&__gda__=1438235340_7ad6d6c0bc3a72904379dc5fec2b44e9" class="img-responsive img-circle" alt="">
+                        <a href="https://www.facebook.com/rzchen0523"><h3>Jeff Chen</h3></a>
+                        <p class="text-muted">Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.5.160.160/p160x160/1512479_787883541232436_2245642318562054135_n.jpg?oh=02a4fc7ca5b1088fd55aceccdcd55ca0&oe=55A94E6B&__gda__=1441068548_6c0d3e81d4480bcbecebd2d89ed7b502" class="img-responsive img-circle" alt="">
+                        <a href="https://www.facebook.com/frederickdeng"><h3>Eric Dneg</h3></a>
+                        <p class="text-muted">Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Subject *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="copyright">Copyright &copy; Super Senior 2015</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- 標題 -->
+                            <h2>蟲蟲危機...</h2>
+                            <p class="item-intro text-muted">
+                                <span class="user">鄧國欽</span>
+                                <span class="dateTime">2015/4/16 12:00</span> 
+                                <span class="label label-info">三餐</span>
+                                <span class="label label-warning">自助餐</span>
+                                <span class="label label-success">湯</span>
+
+                                <span class="solve label label-default">已解決</span>
+                            </p>
+                            <!-- 標題結束 -->
+                            
+                            <!-- 內文 -->
+                            <p>三餐自助餐的湯裡面...</p>
+                            <p>有大型蒼蠅</p>
+                            <br>
+                            <img class="img-responsive img-centered" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/11084289_804096766334264_8161751502452360480_n.jpg?oh=cd8e4e624726fb272356dd7c365891a1&oe=55A8A766&__gda__=1436513495_60df1d0e82546745df1d84e3494de5c4" alt="">
+                            <br>
+                            <!-- 內文結束 -->
+                            
+                            <!-- 留言回應 -->
+                            <h3>所有回應</h3>
+                            <hr>
+                            <div class="responses">
+                                
+                            </div>
+                            <!-- 回應結束 -->
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- 標題 -->
+                            <h2>3 餐七辣有蟑螂</h2>
+                            <p class="item-intro text-muted">
+                                <span class="user">鄧國欽</span>
+                                <span class="dateTime">2015/4/16 12:00</span> 
+                                <span class="label label-info">三餐</span>
+                                <span class="label label-warning">七辣滷味</span>
+                                <span class="label label-success">滷味</span>
+
+                                <span class="solve label label-danger">未解決</span>
+                                
+                            </p>
+                            <hr>
+                            <!-- 標題結束 -->
+                            
+                            <!-- 內文 -->
+                            <p>有沒有這麽不衛生啊買滷味還加料😰</p>   
+                            <p>吃完才發現 ==</p>    
+                            <br>
+                            <img class="img-responsive img-centered" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/22493_951374258219517_7464696858861643844_n.jpg?oh=3ed3af0877c2dec21c98b888fc82708d&oe=5598BD7C&__gda__=1441030295_fa913da31f10e6221d4b0a1bd971d320" alt="">
+                            <br>
+                            <!-- 內文結束 -->
+                            
+                            <!-- 留言回應 -->
+                            <h3>所有回應</h3>
+                            <hr>
+                            <div class="responses">
+                                
+                            </div>
+                            <!-- 回應結束 -->
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/safood.js"></script>
+
+</body>
+
+</html>
